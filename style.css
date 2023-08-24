@@ -43,45 +43,55 @@ button {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .goats {
-    background-color: #f9faf8;
+    background-color: #DBE2EF;
+    text-align: center;
 }
 
 
-.goats h1 {
+.goats h2 {
     color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .goat-cards {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #f9faf8;    
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: inline-block;
+    background-color: #DBE2EF;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 200px;
+    
+}
+
+.goat-cards:first-child{
+    padding-left: 0;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #F9F7F7;
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
     text-align: justify;
     align-content: center;
+    padding-top: 50px;
 }
 
 .quote p, cite {
     margin-left: 75px;
     margin-right: 75px;
+    margin-top: 0;
 }
 
 .banner {
@@ -130,7 +140,7 @@ button {
     color: #fff;
 }
 
-.left-card h1 {
+.left-card h1{
     font-size: 48px;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,6 +158,7 @@ button {
     margin-right: 100px;
     margin-bottom: 40px;
     justify-content: right;
+    margin-top: 25px;
 }
 
 .header {
@@ -156,7 +167,7 @@ button {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #121e30;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -169,7 +180,7 @@ footer p{
     height: 100px;
     color: #fff;
     margin-bottom: 0;
-    background-color: #1f2937;
+    background-color: #121E30;
     justify-content: center;
     align-items: center;
 }
